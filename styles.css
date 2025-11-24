@@ -1,0 +1,16 @@
+
+
+
+:root {
+  --body-bg: #E4E6DB;
+  --bs-primary: #121a37;
+  --bs-primary-rgb:46,72,58
+}
+
+nav {
+  --bs-primary: #0A2670; 
+}
+
+#hero {
+    background-image: url(./header-img.jpg);
+}
