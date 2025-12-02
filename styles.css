@@ -1,16 +1,35 @@
-
-
-
 :root {
-  --body-bg: #E4E6DB;
-  --bs-primary: #121a37;
-  --bs-primary-rgb:46,72,58
+  --ff-ss: 'Merriweather Sans', sans-serif;
+  --ff-s: 'Merriweather', serif;
+
+  --body-bg: #F6F3ED;
+  --bs-primary: #06246B;;
+  --bs-primary-rgb:6, 36, 107;
 }
 
-nav {
-  --bs-primary: #0A2670; 
+h1 {
+    font-size: 5rem;
+}
+
+h2{
+    font-size: 4rem;
+}
+
+h3{
+    font-size: 3rem;
+}
+
+h4{
+    font-size: 2rem;
 }
 
 #hero {
-    background-image: url(./header-img.jpg);
+height: 600px;
+background-image: url(./header-img.jpg);
+  background-color: hsl(71, 18%, 88%);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+  justify-content: left;
+  padding-top: 10px;
 }
